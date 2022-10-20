@@ -1,3 +1,5 @@
+import Swiper from "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js";
+
 const cartButton = document.querySelector("#cart-button");
 const modal = document.querySelector(".modal");
 const close = document.querySelector(".close");
@@ -100,7 +102,7 @@ function createCardRestaurant() {
     class="card wow animate__animated animate__fadeInUp"
     data-wow-delay="0.6s"
   >
-    <img src="img/card2.jpg" alt="card" class="card-image" />
+    <img src="img/card6.png" alt="card" class="card-image" />
     <div class="card-text">
       <div class="card-heading">
         <h3 class="card-title">TTS Pizza</h3>
@@ -108,7 +110,7 @@ function createCardRestaurant() {
       </div>
       <div class="card-info">
         <div class="rating">
-          <img src="img/Vector.svg" alt="rating" class="rating-star" />
+          <img src="img/star.svg" alt="rating" class="rating-star" />
           4.7
         </div>
         <div class="price">від 80 грн</div>
@@ -206,3 +208,9 @@ createCardRestaurant();
 createCardRestaurant();
 createCardRestaurant();
 createCardRestaurant();
+
+new Swiper(".swiper", {
+  sliderPerView: 1,
+  loop: true,
+  autoplay: true,
+});
