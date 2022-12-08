@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tanuki - доставка їжі додому</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" / /> <link
+        rel="preconnect" href="https://fonts.gstatic.com" crossorigin / /> <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" / />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/normalize.css" / />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" alt="logo" class="logo" />
+                </a>
+                <input type="text" class="input input-address"
+                placeholder="Адреса доставки" / />
+                <div class="buttons">
+                    <button class="button button-primary">
+                        <img src="img/user.svg" alt="user" class="button-icon" /
+                        />
+                        <span class="button-text">Увійти</span>
+                    </button>
+                    <button class="button" id="cart-button">
+                        <img src="img/shopping-cart.svg" alt="user"
+                        class="button-icon" / />
+                        <span class="button-text"> Кошик</span>
+                    </button>
+                </div>
+            </header>
+        </div>
+        <!-- /.container -->
+        <main class="main">
+            <div class="container">
+                <section class="restaraunt">
+                    <div class="section-heading">
+                        <h2 class="section-title">Tanuki</h2>
+                        <div class="card-info">
+                            <div class="rating">
+                                <img src="img/star.svg" alt="rating"
+                                class="rating-star" / /> 4.9
+                            </div>
+                            <div class="price">Від 90 грн</div>
+                            <div class="category">Піцца та суші</div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div
+                            class="card wow animate__animated animate__fadeInUp"
+                            data-wow-delay="0.2s"
+                        >
+                            <img
+                                src="img/roll1.png"
+                                alt="card"
+                                class="card-image"
+                            />
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <h3 class="card-title card-title-reg">
+                                        Ролл вугор стандарт
+                                    </h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <div class="card-info">
+                                    <div class="ingredietns">
+                                        Рис, вугор, соус унагі, кунжут,
+                                        водорості норі.
+                                    </div>
+                                </div>
+
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text"
+                                            >У кошик</span
+                                        >
+                                        <img src="img/store.svg"
+                                        alt="shopping-cart"
+                                        class="card-button-image" / />
+                                    </button>
+                                    <strong class="card-price-bold"
+                                        >100 грн</strong
+                                    >
+                                </div>
+                            </div>
+                            <!-- /.card-text -->
+                        </div>
+                        <!-- /.card -->
+
+                        <div
+                            class="card wow animate__animated animate__fadeInUp"
+                            data-wow-delay="0.4s"
+                        >
+                            <img
+                                src="img/roll2.png"
+                                alt="card"
+                                class="card-image"
+                            />
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <h3 class="card-title card-title-reg">
+                                        Каліфорнія стандарт
+                                    </h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <div class="card-info">
+                                    <div class="ingredietns">
+                                        Рис, лосось, огірок, майонез, ікра
+                                        масаго.
+                                    </div>
+                                </div>
+
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text"
+                                            >У кошик</span
+                                        >
+                                        <img src="img/store.svg"
+                                        alt="shopping-cart"
+                                        class="card-button-image" / />
+                                    </button>
+                                    <strong class="card-price-bold"
+                                        >90 грн</strong
+                                    >
+                                </div>
+                            </div>
+                            <!-- /.card-text -->
+                        </div>
+                        <!-- /.card -->
+
+                        <div
+                            class="card wow animate__animated animate__fadeInUp"
+                            data-wow-delay="0.6s"
+                        >
+                            <img
+                                src="img/roll3.png"
+                                alt="card"
+                                class="card-image"
+                            />
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <h3 class="card-title card-title-reg">
+                                        Окінава стандарт
+                                    </h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <div class="card-info">
+                                    <div class="ingredietns">
+                                        Рис, креветка відварена, сир, лосось,
+                                        огірок свіжий...
+                                    </div>
+                                </div>
+
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text"
+                                            >У кошик</span
+                                        >
+                                        <img src="img/store.svg"
+                                        alt="shopping-cart"
+                                        class="card-button-image" / />
+                                    </button>
+                                    <strong class="card-price-bold"
+                                        >110 грн</strong
+                                    >
+                                </div>
+                            </div>
+                            <!-- /.card-text -->
+                        </div>
+                        <!-- /.card -->
+
+                        <div
+                            class="card wow animate__animated animate__fadeInUp"
+                            data-wow-delay="0.2s"
+                        >
+                            <img
+                                src="img/roll4.png"
+                                alt="card"
+                                class="card-image"
+                            />
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <h3 class="card-title card-title-reg">
+                                        Цезарь мак хl
+                                    </h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <div class="card-info">
+                                    <div class="ingredietns">
+                                        Рис, грудка курина копчена, ікра масаго,
+                                        томат...
+                                    </div>
+                                </div>
+
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text"
+                                            >У кошик</span
+                                        >
+                                        <img src="img/store.svg"
+                                        alt="shopping-cart"
+                                        class="card-button-image" / />
+                                    </button>
+                                    <strong class="card-price-bold"
+                                        >95 грн</strong
+                                    >
+                                </div>
+                            </div>
+                            <!-- /.card-text -->
+                        </div>
+                        <!-- /.card -->
+
+                        <div
+                            class="card wow animate__animated animate__fadeInUp"
+                            data-wow-delay="0.4s"
+                        >
+                            <img
+                                src="img/roll5.png"
+                                alt="card"
+                                class="card-image"
+                            />
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <h3 class="card-title card-title-reg">
+                                        Ясай мак стандарт
+                                    </h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <div class="card-info">
+                                    <div class="ingredietns">
+                                        Рис, помідор свіжий, перець болгарський,
+                                        авокадо, огірок.
+                                    </div>
+                                </div>
+
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text"
+                                            >У кошик</span
+                                        >
+                                        <img src="img/store.svg"
+                                        alt="shopping-cart"
+                                        class="card-button-image" / />
+                                    </button>
+                                    <strong class="card-price-bold"
+                                        >105 грн</strong
+                                    >
+                                </div>
+                            </div>
+                            <!-- /.card-text -->
+                        </div>
+                        <!-- /.card -->
+
+                        <div
+                            class="card wow animate__animated animate__fadeInUp"
+                            data-wow-delay="0.6s"
+                        >
+                            <img
+                                src="img/roll6.png"
+                                alt="card"
+                                class="card-image"
+                            />
+                            <div class="card-text">
+                                <div class="card-heading">
+                                    <h3 class="card-title card-title-reg">
+                                        Креветка стандарт
+                                    </h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <div class="card-info">
+                                    <div class="ingredietns">
+                                        Рис, водорості норі, креветки відварені,
+                                        сир, огірки.
+                                    </div>
+                                </div>
+
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text"
+                                            >У кошик</span
+                                        >
+                                        <img src="img/store.svg"
+                                        alt="shopping-cart"
+                                        class="card-button-image" / />
+                                    </button>
+                                    <strong class="card-price-bold"
+                                        >100 грн</strong
+                                    >
+                                </div>
+                            </div>
+                            <!-- /.card-text -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.cards -->
+                </section>
+            </div>
+            <!-- /.container -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-block">
+                        <img src="img/logo.svg" alt="logo" class="logo
+                        footer-logo" / />
+                        <nav class="footer-nav">
+                            <a href="" class="footer-link">Ресторанам</a>
+                            <a href="" class="footer-link">Кур'єрам</a>
+                            <a href="" class="footer-link">Прес-центр</a>
+                            <a href="" class="footer-link">Контакти</a>
+                        </nav>
+                        <div class="social-links">
+                            <a href="" class="social-link"
+                                ><img src="img/Inst.svg" alt="instagram"
+                            /></a>
+                            <a href="" class="social-link"
+                                ><img src="img/Facebook.svg" alt="facebook"
+                            /></a>
+                            <a href="" class="social-link"
+                                ><img src="img/telegram.svg" alt="telegram"
+                            /></a>
+                        </div>
+                    </div>
+                    <!-- /.footer-block -->
+                </div>
+            </footer>
+
+            <div class="modal">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Кошик</h3>
+                        <button class="close">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="food-row">
+                            <span class="food-name">Ролл вугор стандарт</span>
+                            <strong class="food-price">100</strong>
+                            <div class="food-counter">
+                                <button class="counter-button">-</button>
+                                <span class="counter">1</span>
+                                <button class="counter-button">+</button>
+                            </div>
+                        </div>
+                        <!-- /.foods-row -->
+                        <div class="food-row">
+                            <span class="food-name">Каліфорнія стандарт</span>
+                            <strong class="food-price">100</strong>
+                            <div class="food-counter">
+                                <button class="counter-button">-</button>
+                                <span class="counter">1</span>
+                                <button class="counter-button">+</button>
+                            </div>
+                        </div>
+                        <!-- /.foods-row -->
+                        <div class="food-row">
+                            <span class="food-name">Окінава стандарт</span>
+                            <strong class="food-price">100</strong>
+                            <div class="food-counter">
+                                <button class="counter-button">-</button>
+                                <span class="counter">1</span>
+                                <button class="counter-button">+</button>
+                            </div>
+                        </div>
+                        <!-- /.foods-row -->
+                        <div class="food-row">
+                            <span class="food-name">Цезарь мак хl</span>
+                            <strong class="food-price">100</strong>
+                            <div class="food-counter">
+                                <button class="counter-button">-</button>
+                                <span class="counter">1</span>
+                                <button class="counter-button">+</button>
+                            </div>
+                        </div>
+                        <!-- /.foods-row -->
+                        <div class="food-row">
+                            <span class="food-name">Ясай мак стандарт</span>
+                            <strong class="food-price">100</strong>
+                            <div class="food-counter">
+                                <button class="counter-button">-</button>
+                                <span class="counter">1</span>
+                                <button class="counter-button">+</button>
+                            </div>
+                        </div>
+                        <!-- /.foods-row -->
+                    </div>
+                    <!-- /.modal-body -->
+                    <div class="modal-footer">
+                        <span class="modal-pricetag">500</span>
+                        <div class="footer-buttons">
+                            <button class="button button-primary">
+                                Оформити заказ
+                            </button>
+                            <button class="button">Відмінити</button>
+                        </div>
+                    </div>
+                    <!-- /.modal-footer -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+        </main>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
